@@ -1,0 +1,288 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- index css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="./css/framework.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Files</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="page d-flex">
+        <!-------------------------------------------
+                            side bar                  
+        -------------------------------------------->
+        <div class="sidebar bg-white p-20 p-relative">
+          <h3 class="p-relative txt-c mt-0">Djaber</h3>
+          <ul class="p-0 list-none">
+            <li>
+              <a
+                href="index.html"
+                class="d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-regular fa-chart-bar fa-fw"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="settings.html"
+                class="d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-solid fa-gear fa-fw"></i>
+                <span>Settings</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="profile.html"
+                class="d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <span>Profile</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="courses.html"
+                class="d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                <span>Courses</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="friends.html"
+                class="d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-solid fa-people-group fa-fw"></i>
+                <span>Friends</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="files.html"
+                class="active d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-regular fa-file-alt fa-fw"></i>
+                <span>Files</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="plans.html"
+                class="d-flex align-center fs-14 c-black rad-6 p-10">
+                <i class="fa-regular fa-calendar fa-fw"></i>
+                <span>Plans </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-------------------------------------------
+                            Content                  
+        -------------------------------------------->
+        <div class="content f-w pb-30">
+          <!-------------------------------------------
+                              head                  
+          -------------------------------------------->
+          <div class="head d-flex bg-white f-w align-center">
+            <div class="left p-10">
+              <i class="fa-solid fa-search fa-fw"></i>
+              <input
+                class="search"
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Type A Keyword" />
+            </div>
+            <div class="right d-flex align-center">
+              <i class="fa-regular fa-bell fa-fw p-relative"></i>
+              <img
+                src="imgs/avatar.png"
+                alt=""
+                width="32"
+                height="32"
+                loading="lazy"
+                async="async" />
+            </div>
+          </div>
+          <!-------------------------------------------
+                              Files                  
+          -------------------------------------------->
+          <div>
+            <h1 class="title">Files</h1>
+          </div>
+          <div class="files-wrapper d-flex m-wra gap-20">
+            <div class="file-statistics bg-white p-20 rad-10">
+              <h2 class="txt-c">Files Statistics</h2>
+              <div class="row mt-20 d-flex align-center">
+                <i class="fa-file-pdf fa-regular c-blue icon"></i>
+                <span
+                  >PDF Files <span class="d-block mt-10 c-grey">130</span></span
+                >
+                <span class="size">6.5G.B</span>
+              </div>
+              <div class="row mt-20 d-flex align-center">
+                <i class="fa-images fa-regular c-green icon"></i>
+                <span
+                  >PDF Files <span class="d-block mt-10 c-grey">130</span></span
+                >
+                <span class="size">6.5G.B</span>
+              </div>
+              <div class="row mt-20 d-flex align-center">
+                <i class="fa-file-word fa-regular c-red icon"></i>
+                <span
+                  >PDF Files <span class="d-block mt-10 c-grey">130</span></span
+                >
+                <span class="size">6.5G.B</span>
+              </div>
+              <div class="row mt-20 d-flex align-center">
+                <i class="fa-file-csv fa-regular c-yellow icon"></i>
+                <span
+                  >PDF Files <span class="d-block mt-10 c-grey">130</span></span
+                >
+                <span class="size">6.5G.B</span>
+              </div>
+              <div class="btn c-white bg-blue m-auto">Upload</div>
+            </div>
+            <div class="files fs-14">
+              <div class="file bg-white p-20 rad-10">
+                <div class="icon txt-c">
+                  <img
+                    src="imgs/pdf.svg"
+                    alt="pdf"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                    aria-hidden="true"
+                    async="async" />
+                  <span class="d-block mt-10 mb-20">my-file.pdf</span>
+                </div>
+                <span class="c-grey pb-10 d-block">Djaber</span>
+                <div class="flex-between pt-10">
+                  <span class="c-grey">20/06/2022</span>
+                  <span>5.5mb</span>
+                </div>
+              </div>
+              <div class="file bg-white p-20 rad-10">
+                <div class="icon txt-c">
+                  <img
+                    src="imgs/pdf.svg"
+                    alt="pdf"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                    aria-hidden="true"
+                    async="async" />
+                  <span class="d-block mt-10 mb-20">my-file.pdf</span>
+                </div>
+                <span class="c-grey pb-10 d-block">Djaber</span>
+                <div class="flex-between pt-10">
+                  <span class="c-grey">20/06/2022</span>
+                  <span>5.5mb</span>
+                </div>
+              </div>
+              <div class="file bg-white p-20 rad-10">
+                <div class="icon txt-c">
+                  <img
+                    src="imgs/pdf.svg"
+                    alt="pdf"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                    aria-hidden="true"
+                    async="async" />
+                  <span class="d-block mt-10 mb-20">my-file.pdf</span>
+                </div>
+                <span class="c-grey pb-10 d-block">Djaber</span>
+                <div class="flex-between pt-10">
+                  <span class="c-grey">20/06/2022</span>
+                  <span>5.5mb</span>
+                </div>
+              </div>
+              <div class="file bg-white p-20 rad-10">
+                <div class="icon txt-c">
+                  <img
+                    src="imgs/pdf.svg"
+                    alt="pdf"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                    aria-hidden="true"
+                    async="async" />
+                  <span class="d-block mt-10 mb-20">my-file.pdf</span>
+                </div>
+                <span class="c-grey pb-10 d-block">Djaber</span>
+                <div class="flex-between pt-10">
+                  <span class="c-grey">20/06/2022</span>
+                  <span>5.5mb</span>
+                </div>
+              </div>
+              <div class="file bg-white p-20 rad-10">
+                <div class="icon txt-c">
+                  <img
+                    src="imgs/pdf.svg"
+                    alt="pdf"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                    aria-hidden="true"
+                    async="async" />
+                  <span class="d-block mt-10 mb-20">my-file.pdf</span>
+                </div>
+                <span class="c-grey pb-10 d-block">Djaber</span>
+                <div class="flex-between pt-10">
+                  <span class="c-grey">20/06/2022</span>
+                  <span>5.5mb</span>
+                </div>
+              </div>
+              <div class="file bg-white p-20 rad-10">
+                <div class="icon txt-c">
+                  <img
+                    src="imgs/pdf.svg"
+                    alt="pdf"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                    aria-hidden="true"
+                    async="async" />
+                  <span class="d-block mt-10 mb-20">my-file.pdf</span>
+                </div>
+                <span class="c-grey pb-10 d-block">Djaber</span>
+                <div class="flex-between pt-10">
+                  <span class="c-grey">20/06/2022</span>
+                  <span>5.5mb</span>
+                </div>
+              </div>
+              <div class="file bg-white p-20 rad-10">
+                <div class="icon txt-c">
+                  <img
+                    src="imgs/pdf.svg"
+                    alt="pdf"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                    aria-hidden="true"
+                    async="async" />
+                  <span class="d-block mt-10 mb-20">my-file.pdf</span>
+                </div>
+                <span class="c-grey pb-10 d-block">Djaber</span>
+                <div class="flex-between pt-10">
+                  <span class="c-grey">20/06/2022</span>
+                  <span>5.5mb</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
